@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/profle_pic"
+        android:src="@drawable/sahilcirclesmall"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/perosn_name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="Sahil Khan"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/persom_bio"
+        android:layout_weight="1"
+        android:text="Learning Android, From New Delhi"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_height="0dp" />
+
+</LinearLayout>
